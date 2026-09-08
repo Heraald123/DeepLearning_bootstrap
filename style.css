@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "ui", sans-serif;
+}
+.navbar{
+    height:5rem;
+}
+.navbar-brand img{
+    width:13rem;
+    height:auto;
+    margin-left:3rem;
+}
+.nav-item{
+    margin-right:1rem;
+    margin-bottom:1rem;
+}
+.Login{
+    margin-bottom:2rem;
+    margin-right:2rem;
+    border-radius: 10px;
+    background-color: palevioletred;
+    padding:5px;
+}
+
+.hero{
+    background: linear-gradient(90deg,blue,violet);
+    width:1600px;
+    height:38rem;
+    margin-top:8rem;
+    width:100%;
+}
+.herocourse {
+    margin-top:5rem;
+}
+.descr{
+    width:58rem;
+    margin-left:3rem;
+}
+.example{
+    font-size:16px;
+}
+.exam {
+    font-size:14px;
+}
+.learn{
+    margin-left:1rem;
+}
+.join,.projects{
+    margin-left:4.8rem;
+}
+.skills{
+    margin-left:5.5rem;
+    width:56.7rem;
+}
+.course-section{
+    margin-left:4.0rem;
+}
+.Instructor {
+    margin-left:4.8rem;
+}
+.Enroll{
+    background:linear-gradient(90deg,#f44f69,#cf28bf,#5b39c9);
+    margin-left:4.9rem;
+    height:15rem;
+    border-radius:1rem;
+}
+.access{
+    margin-bottom:2rem;
+}
+.subscribe-section {
+    background-color:blue;
+    margin-top:5rem;
+    
+}
+.submit{
+    background-color: palevioletred;
+
+}
+.submit:hover{
+    background-color: red;
+}
+.learnmore{
+    margin-top:5rem;
+}
+.first{
+    margin-top:5rem;
+}
+.footer{
+    width:100%;
+    background-color:#49636f;
+}
+.black{
+    background-color: black;
+    border-radius: 1rem;
+    width:6rem;
+    height:auto;
+   
+}
+.blackness{
+    background-color: black;
+    border-radius: 1rem;
+    width:6rem;
+    height:auto;
+    
+}
+.get{
+    margin-left:15rem;
+}
+.footerlinks{
+    color:#f65b66;
+    
+}
