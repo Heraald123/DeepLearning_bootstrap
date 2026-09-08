@@ -20,11 +20,11 @@ body {
     margin-bottom:1rem;
 }
 .Login{
-    margin-bottom:2rem;
+    margin-bottom:1rem;
     margin-right:2rem;
     border-radius: 10px;
-    background-color: palevioletred;
-    padding:5px;
+    background-color: red;
+    padding:7px;
 }
 
 .hero{
