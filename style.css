@@ -1,117 +1,580 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    max-width: 100%;
 }
 
 body {
-  font-family: "ui", sans-serif;
+    font-family: "ui", sans-serif;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
-.navbar{
-    height:5rem;
+
+header,
+main,
+footer,
+section {
+    width: 100%;
+    max-width: 100%;
 }
-.navbar-brand img{
-    width:13rem;
-    height:auto;
-    margin-left:3rem;
+
+.navbar {
+    width: 100%;
+    min-height: 5rem;
 }
-.nav-item{
-    margin-right:1rem;
-    margin-bottom:1rem;
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
 }
-.Login{
-    margin-bottom:1rem;
-    margin-right:2rem;
+
+.navbar-brand figure {
+    margin: 0;
+}
+
+.navbar-brand img {
+    width: 13rem;
+    height: auto;
+    margin-left: 3rem;
+}
+
+.nav-item {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Login {
+    margin-bottom: 1rem;
+    margin-right: 2rem;
     border-radius: 10px;
     background-color: red;
-    padding:7px;
+    padding: 7px;
 }
 
-.hero{
-    background: linear-gradient(90deg,blue,violet);
-    width:1600px;
-    height:38rem;
-    margin-top:8rem;
-    width:100%;
+.hero {
+    background: linear-gradient(90deg, blue, violet);
+    width: 100%;
+    margin-top: 5rem;
+    padding: 5rem 0;
 }
+
 .herocourse {
-    margin-top:5rem;
+    margin-top: 0;
 }
-.descr{
-    width:58rem;
-    margin-left:3rem;
-}
-.example{
-    font-size:16px;
-}
-.exam {
-    font-size:14px;
-}
-.learn{
-    margin-left:1rem;
-}
-.join,.projects{
-    margin-left:4.8rem;
-}
-.skills{
-    margin-left:5.5rem;
-    width:56.7rem;
-}
-.course-section{
-    margin-left:4.0rem;
-}
-.Instructor {
-    margin-left:4.8rem;
-}
-.Enroll{
-    background:linear-gradient(90deg,#f44f69,#cf28bf,#5b39c9);
-    margin-left:4.9rem;
-    height:15rem;
-    border-radius:1rem;
-}
-.access{
-    margin-bottom:2rem;
-}
-.subscribe-section {
-    background-color:blue;
-    margin-top:5rem;
-    
-}
-.submit{
-    background-color: palevioletred;
 
+.video-card {
+    width: 100%;
+    max-width: 100%;
 }
-.submit:hover{
+
+.video-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.play-btn {
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    border-radius: 50%;
+    background-color: #f65b66;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.descr {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.example {
+    font-size: 16px;
+}
+
+.exam {
+    font-size: 14px;
+}
+
+.learn {
+    width: 100%;
+    margin-left: 0;
+}
+
+.course-info {
+    width: 100%;
+}
+
+.join {
+    width: 100%;
+    margin-left: 0;
+}
+
+.projects {
+    width: 100%;
+    margin-left: 0;
+}
+
+.skills {
+    width: 100%;
+    margin-left: 0;
+}
+
+.course-section {
+    width: 100%;
+    margin-left: 0;
+}
+
+.Instructor {
+    width: 100%;
+    margin-left: 0;
+}
+
+.Enroll {
+    background: linear-gradient(90deg, #f44f69, #cf28bf, #5b39c9);
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.access {
+    margin-bottom: 2rem;
+}
+
+.subscribe-section {
+    background-color: blue;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.submit {
+    background-color: palevioletred;
+}
+
+.submit:hover {
     background-color: red;
 }
-.learnmore{
-    margin-top:5rem;
+
+.learnmore {
+    margin-top: 5rem;
 }
-.first{
-    margin-top:5rem;
+
+.first {
+    margin-top: 5rem;
 }
-.footer{
-    width:100%;
-    background-color:#49636f;
+
+.footer {
+    width: 100%;
+    background-color: #49636f;
 }
-.black{
+
+.black {
     background-color: black;
     border-radius: 1rem;
-    width:6rem;
-    height:auto;
-   
+    width: 6rem;
+    max-width: 100%;
+    height: auto;
 }
-.blackness{
+
+.blackness {
     background-color: black;
     border-radius: 1rem;
-    width:6rem;
-    height:auto;
-    
+    width: 6rem;
+    max-width: 100%;
+    height: auto;
 }
-.get{
-    margin-left:15rem;
+
+.get {
+    margin-left: 30rem;
 }
-.footerlinks{
-    color:#f65b66;
-    
+
+.footerlinks {
+    color: #f65b66;
+}
+
+@media (width <=576px) {
+
+    .navbar {
+        min-height: 4.5rem;
+    }
+
+    .navbar .container-fluid {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .navbar-brand img {
+        width: 10rem;
+        margin-left: 0;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+    }
+
+    .navbar-collapse {
+        background-color: white;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        align-items: flex-start !important;
+    }
+
+    .nav-item {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .dropdown-menu {
+        width: 100%;
+    }
+
+    .hero {
+        width: 100%;
+        margin-top: 4.5rem;
+        padding: 3rem 0;
+    }
+
+    .hero .container-fluid {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .hero .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hero .col-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .herocourse {
+        font-size: 12px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero .fs-5 {
+        font-size: 1rem !important;
+    }
+
+    .video-card {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .video-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .play-btn {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .learn {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .learn .container-fluid {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .descr {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .projects {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+
+    .join {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .skills {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .course-section {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .projects,
+    .join,
+    .skills,
+    .course-section,
+    .Instructor {
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .accordion-button {
+        font-size: 14px;
+    }
+
+    .Instructor {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .Instructor .d-flex {
+        align-items: flex-start !important;
+    }
+
+    .Instructor img {
+        margin-bottom: 1rem;
+    }
+
+    .Enroll {
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0;
+    }
+
+
+    .subscribe-section {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+
+
+    .learnmore {
+        margin-top: 0;
+        font-size: 1.8rem;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+
+
+    .get {
+        margin-left: 0;
+    }
+
+    .black {
+        width: 8rem;
+    }
+
+    .blackness {
+        width: 9rem;
+    }
+
+}
+
+@media (width >=577px) and (width <=768px) {
+
+    .navbar-brand img {
+        width: 11rem;
+        margin-left: 1rem;
+    }
+
+    .navbar-collapse {
+        background-color: white;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    .navbar-nav {
+        align-items: flex-start !important;
+    }
+
+    .nav-item {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero {
+        margin-top: 5rem;
+        padding: 4rem 0;
+    }
+
+    .video-card {
+        margin-top: 2rem;
+    }
+
+    .descr,
+    .learn,
+    .join,
+    .projects,
+    .skills,
+    .course-section,
+    .Instructor,
+    .Enroll {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .course-info {
+        width: 100%;
+    }
+
+    .get {
+        margin-left: 0;
+    }
+
+}
+
+@media (width >=769px) and (width <=992px) {
+
+    .navbar-brand img {
+        width: 12rem;
+        margin-left: 1rem;
+    }
+
+    .navbar-collapse {
+        background-color: white;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    .navbar-nav {
+        align-items: flex-start !important;
+    }
+
+    .nav-item {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero {
+        margin-top: 5rem;
+        padding: 5rem 0;
+    }
+
+    .video-card {
+        margin-top: 2rem;
+    }
+
+    .descr,
+    .learn,
+    .join,
+    .projects,
+    .skills,
+    .course-section,
+    .Instructor,
+    .Enroll {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .course-info {
+        width: 100%;
+    }
+
+    .get {
+        margin-left: 0;
+    }
+
+}
+
+}
+
+@media (width >=993px) and (width <=1200px) {
+
+    .hero {
+        padding: 5rem 0;
+    }
+
+    .learn {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .projects,
+    .join,
+    .skills,
+    .course-section,
+    .Instructor {
+        width: 75%;
+        margin-left: 3rem;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .Enroll {
+        width: 75%;
+        margin-left: 3rem;
+        margin-right: 0;
+    }
+
+}
+
+
+
+@media (width >=1200px) {
+
+    .hero {
+        padding: 5rem 0;
+    }
+
+    .learn {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .projects,
+    .join,
+    .skills,
+    .course-section,
+    .Instructor {
+        width: 75%;
+        max-width: 1100px;
+        margin-left: 3rem;
+        margin-right: 0;
+    }
+
+    .Enroll {
+        width: 75%;
+        max-width: 1100px;
+        margin-left: 3rem;
+        margin-right: 0;
+    }
+
 }

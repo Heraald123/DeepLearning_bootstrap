@@ -1,311 +1,369 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>DeepLearning</title>
-  <link rel="shortcut icon" href="./assets/Images/logo.png" type="image/x-icon" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/bootstrap-icons.svg" />
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
-    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="./assets/Images/logo.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 </head>
 
 <body>
+
   <header>
+
     <nav class="navbar navbar-expand-lg fixed-top bg-light">
-      <div class="navbar-brand" href="./index.html">
-        <figure>
-          <img src="./assets/Images/logo1.png" alt="DeepLearning.ai logo" />
-        </figure>
-      </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
-        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle Navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav mx-auto align-items-center">
-          <li class="nav-item">
-            <a href="./index.html" class="nav-link active">Home</a>
-          </li>
+      <div class="container-fluid">
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              News
-            </a>
+        <a class="navbar-brand" href="./index.html">
+          <figure>
+            <img src="./assets/Images/logo1.png" alt="DeepLearning.ai logo">
+          </figure>
+        </a>
 
-            <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="#"> Batch </a>
-              </li>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-              <li>
-                <a class="dropdown-item" href="#"> Andrew's letter </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#"> Data points </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#"> Ml research </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#"> Blog </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Community
-            </a>
+        <div class="collapse navbar-collapse" id="mainNavbar">
 
-            <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="#"> Forum </a>
-              </li>
+          <ul class="navbar-nav mx-auto align-items-lg-center">
 
-              <li>
-                <a class="dropdown-item" href="#"> Events </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#"> Ambassdors </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#"> Ambassdors spotlight </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#"> Resources </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="./index.html" class="nav-link active">Membership</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              For Buisness
-            </a>
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link active">Home</a>
+            </li>
 
-            <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="#"> Overview </a>
-              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">News</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Batch</a></li>
+                <li><a class="dropdown-item" href="#">Andrew's letter</a></li>
+                <li><a class="dropdown-item" href="#">Data points</a></li>
+                <li><a class="dropdown-item" href="#">Ml research</a></li>
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+              </ul>
+            </li>
 
-              <li>
-                <a class="dropdown-item" href="#"> Plans and pricing </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#"> Learning tracks </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#"> Contact us </a>
-              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Community</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Forum</a></li>
+                <li><a class="dropdown-item" href="#">Events</a></li>
+                <li><a class="dropdown-item" href="#">Ambassdors</a></li>
+                <li><a class="dropdown-item" href="#">Ambassdors spotlight</a></li>
+                <li><a class="dropdown-item" href="#">Resources</a></li>
+              </ul>
+            </li>
 
-            </ul>
-          </li>
-        </ul>
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link active">Membership</a>
+            </li>
 
-        
-        
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">For Buisness</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Overview</a></li>
+                <li><a class="dropdown-item" href="#">Plans and pricing</a></li>
+                <li><a class="dropdown-item" href="#">Learning tracks</a></li>
+                <li><a class="dropdown-item" href="#">Contact us</a></li>
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
       </div>
     </nav>
-    <div class="hero">
-      <div class="container">
+
+    <section class="hero">
+      <div class="container-fluid px-4 px-lg-5">
+
         <div class="row align-items-center g-5">
+
           <div class="col-12 col-lg-6">
-            <div class="d-flex align-items-center gap-3 mb-4 text-white">
+
+            <div class="d-flex flex-wrap align-items-center gap-3 mb-4 text-white">
               <span class="herocourse">All Courses ></span>
-              <i class="bi bi-chevron-right text-white"></i>
               <span class="herocourse">Course ></span>
-              <i class="bi bi-chevron-right text-white"></i>
               <span class="herocourse">AI Python for Beginners</span>
             </div>
+
             <div class="d-flex flex-wrap gap-2 mb-3">
               <span class="border rounded px-2 py-1 fw-semibold text-white">Course</span>
-              <span class="border rounded px-2 py-1 fw-semibold text-white">
-                <i class=" me-2 "></i>Beginner</span>
-              <span class="border rounded px-2 py-1 fw-semibold text-white"><i class=" me-1 "></i>11h30m</span>
+              <span class="border rounded px-2 py-1 fw-semibold text-white">Beginner</span>
+              <span class="border rounded px-2 py-1 fw-semibold text-white">11h30m</span>
             </div>
+
             <h1 class="fw-bold mb-3 text-white">AI Python for Beginners</h1>
+
             <p class="fs-5 mb-2 text-white">Instructor: Andrew Ng</p>
+
             <h2 class="fw-bold mb-4 text-white">DeepLearning.AI</h2>
+
             <div class="d-flex align-items-center gap-2 mb-4 text-white">
               <i class="bi bi-check-lg fs-4"></i>
               <span>Earn a certificate with <strong>PRO</strong></span>
             </div>
+
             <div class="d-flex align-items-center gap-2">
               <button class="btn btn-light px-4 py-3 fw-semibold text-white bg-primary">Enroll for Free</button>
-              <button class="btn wishlist-btn"><i class="bi bi-heart fs-3"></i></button>
+              <button class="btn wishlist-btn text-white">
+                <i class="bi bi-heart fs-3"></i>
+              </button>
             </div>
+
           </div>
+
           <div class="col-12 col-lg-6">
+
             <div class="video-card position-relative">
+
               <img src="./assets/Images/hero.png" alt="AI Python Course" class="img-fluid w-100 rounded">
-              <button class="play-btn position-absolute top-50 start-50 translate-middle"><i
-                  class="bi bi-play-fill"></i></button>
+
+              <button class="play-btn position-absolute top-50 start-50 translate-middle">
+                <i class="bi bi-play-fill"></i>
+              </button>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
-    </div>
+    </section>
+
   </header>
+
   <main>
+
     <section class="learn py-4">
+
       <div class="container-fluid px-4">
+
         <div class="row g-4">
+
           <div class="col-12 col-lg-8">
+
             <div class="bg-white descr border rounded-3 p-4 mb-5 shadow-sm">
+
               <h3 class="mb-4">What you'll learn</h3>
+
               <div class="d-flex mb-3">
                 <i class="bi bi-check-circle-fill text-info me-3 mt-1"></i>
                 <p class="mb-0 example">Learn Python programming fundamentals and how to integrate AI tools for data
                   manipulation, analysis, and visualization.</p>
               </div>
+
               <div class="d-flex mb-3">
                 <i class="bi bi-check-circle-fill text-info me-3 mt-1"></i>
                 <p class="mb-0 example">Discover how Python can be applied in various domains such as business,
-                  marketing,
-                  and journalism to solve real-world problems and enhance efficiency through practical applications.</p>
+                  marketing, and journalism to solve real-world problems and enhance efficiency through practical
+                  applications.</p>
               </div>
+
               <div class="d-flex">
                 <i class="bi bi-check-circle-fill text-info me-3 mt-1"></i>
                 <p class="mb-0 example">Leverage AI assistants to debug code, explain concepts, and enhance your
-                  learning,
-                  mirroring real-world software development practices.</p>
+                  learning, mirroring real-world software development practices.</p>
               </div>
+
             </div>
-            <div class="bg-white border descr   rounded-3 p-4 shadow-sm">
+
+            <div class="bg-white border descr rounded-3 p-4 shadow-sm">
+
               <h3 class="mb-4">About this course</h3>
-              <p class="example"><strong>AI Python for Beginners</strong> is designed to help you leverage the power of
-                Python programming,
-                even if your goal isn’t to become a software developer or AI engineer. This four-part course teaches you
-                to code practical AI applications from day one, whether you’re an experienced programmer, or writing
-                “Hello, World!” for the first time. You’ll learn with support from an AI chatbot that can provide you
-                with immediate feedback, answer your questions, quickly identify and work through bugs, and keep you on
-                track while learning new skills.<br>
+
+              <p class="example">
+
+                <strong>AI Python for Beginners</strong> is designed to help you leverage the power of Python
+                programming, even if your goal isn’t to become a software developer or AI engineer.
+
+                This four-part course teaches you to code practical AI applications from day one, whether you’re an
+                experienced programmer, or writing “Hello, World!” for the first time.
+
+                You’ll learn with support from an AI chatbot that can provide you with immediate feedback, answer your
+                questions, quickly identify and work through bugs, and keep you on track while learning new skills.
+
+                <br><br>
 
                 You’ll gain a foundational understanding of Python while using it to build AI-powered tools like custom
                 recipe generators, smart to-do lists, and vacation planners, learning essential programming concepts
-                such as variables, functions, loops, and data structures along the way. As you progress, you’ll work
-                with your own data, extracting valuable insights from text files and structured data, including planning
-                a dream vacation by having AI analyze travel blogs and generate personalized itineraries!<br>
+                such as variables, functions, loops, and data structures along the way.
+
+                As you progress, you’ll work with your own data, extracting valuable insights from text files and
+                structured data, including planning a dream vacation by having AI analyze travel blogs and generate
+                personalized itineraries!
+
+                <br><br>
 
                 By the end of this course series, you’ll be able to write Python scripts that interact with large
-                language models, automate tasks, and analyze your own data. You’ll even learn how to extend Python’s
-                capabilities using popular third-party packages for data analysis and visualization, and how to access
-                real-time information through APIs. These are skills that are increasingly valuable across industries
-                from tech and finance to healthcare and creative fields.<br>
+                language models, automate tasks, and analyze your own data.
+
+                You’ll even learn how to extend Python’s capabilities using popular third-party packages for data
+                analysis and visualization, and how to access real-time information through APIs.
+
+                These are skills that are increasingly valuable across industries from tech and finance to healthcare
+                and creative fields.
+
+              </p>
+
             </div>
+
           </div>
-          <div class="col-12 col-lg-4 ">
-            <div class="bg-white border w-75 rounded-3 p-4 shadow-sm">
+
+          <div class="col-12 col-lg-4">
+
+            <div class="bg-white border rounded-3 p-4 shadow-sm course-info">
+
               <h2 class="fw-bold mb-4 example">AI Python for Beginners</h2>
-              <p class="example"><i class="bi bi-bar-chart me-2 "></i>Beginner</p>
-              <p class="example"><i class="bi bi-clock me-2 "></i>11h30m</p>
-              <p class="example"><i class="bi bi-play me-2 "></i>35 Video Lessons</p>
-              <p class="example"><i class="bi bi-code-square me-2 "></i>27 Code Examples</p>
-              <p class="example"><i class="bi bi-card-checklist me-2 "></i>8 Graded Assignments <span
-                  class="badge bg-primary">PRO</span>
+
+              <p class="example">
+                <i class="bi bi-bar-chart me-2"></i>Beginner
               </p>
-              <p class="example"><i class="bi bi-check-lg me-2"></i>Earn a certificate with <span
-                  class="badge bg-primary">PRO</span>
+
+              <p class="example">
+                <i class="bi bi-clock me-2"></i>11h30m
               </p>
-              <p class="example"><i class="bi bi-people me-2"></i>Instructor: Andrew Ng</p>
-              <p class="example"><i class="bi bi-record-circle text-danger me-2"></i>DeepLearning.AI</p>
-              <p class="text-secondary mt-4 example">Learn more about <a href="#"
-                  class="text-info text-decoration-none fw-semibold">Membership PRO Plan <i
-                    class="bi bi-box-arrow-up-right"></i></a></p>
+
+              <p class="example">
+                <i class="bi bi-play me-2"></i>35 Video Lessons
+              </p>
+
+              <p class="example">
+                <i class="bi bi-code-square me-2"></i>27 Code Examples
+              </p>
+
+              <p class="example">
+                <i class="bi bi-card-checklist me-2"></i>
+                8 Graded Assignments
+                <span class="badge bg-primary">PRO</span>
+              </p>
+
+              <p class="example">
+                <i class="bi bi-check-lg me-2"></i>
+                Earn a certificate with
+                <span class="badge bg-primary">PRO</span>
+              </p>
+
+              <p class="example">
+                <i class="bi bi-people me-2"></i>
+                Instructor: Andrew Ng
+              </p>
+
+              <p class="example">
+                <i class="bi bi-record-circle text-danger me-2"></i>
+                DeepLearning.AI
+              </p>
+
+              <p class="text-secondary mt-4 example">
+                Learn more about
+                <a href="#" class="text-info text-decoration-none fw-semibold">
+                  Membership PRO Plan
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+              </p>
+
               <div class="d-flex align-items-center gap-3 mt-4">
-                <button class="btn btn-danger flex-grow-1 py-3">Enroll for Free</button>
-                <i class="bi bi-heart fs-2"></i>
+
+                <button class="btn btn-danger flex-grow-1 py-3">
+                  Enroll for Free
+                </button>
+
+                
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
-    <section class="projects descr py-3">
-      <div class="container">
+
+    <section class="projects py-5">
+
+      <div class="container-fluid ">
+
         <div class="card p-4">
+
           <h2 class="mb-4 fs-4 fw-bold">
             Hands-on projects
           </h2>
+
           <p class="mb-4 example">
-            Throughout this course, you’ll engage in practical,
-            hands-on exercises that reinforce your learning and
-            demonstrate the wide range of possibilities for what
-            you can create with Python and AI. Here are some of
-            the projects you’ll work on:
+            Throughout this course, you’ll engage in practical, hands-on exercises that reinforce your learning and
+            demonstrate the wide range of possibilities for what you can create with Python and AI.
           </p>
+
           <ul>
+
             <li class="mb-3 example">
               <strong>Custom Recipe Generator:</strong>
-              Create an AI-powered tool that generates unique
-              recipes based on available ingredients. You’ll use
-              variables, f-strings, and AI prompts to craft
-              personalized culinary creations.
+              Create an AI-powered tool that generates unique recipes based on available ingredients.
             </li>
+
             <li class="mb-3 example">
               <strong>Smart To-Do List:</strong>
-              Build an intelligent task manager that not only
-              stores your to-do items but also prioritizes them
-              using AI. You’ll apply your knowledge of lists,
-              dictionaries, and decision-making code to enhance
-              productivity.
+              Build an intelligent task manager that prioritizes tasks using AI.
             </li>
+
             <li class="mb-3 example">
               <strong>Travel Blog Analyzer:</strong>
-              Develop a program that reads travel blog entries
-              and uses AI to extract key information like
-              restaurant names and popular dishes.
+              Develop a program that reads travel blog entries and extracts useful information.
             </li>
+
             <li class="mb-3 example">
               <strong>Dream Vacation Planner:</strong>
-              Create a sophisticated itinerary generator that
-              takes a multi-city trip plan and uses AI to suggest
-              daily activities, including restaurant recommendations.
+              Create an itinerary generator that uses AI to suggest daily activities.
             </li>
+
             <li class="mb-3 example">
               <strong>Data Visualization Project:</strong>
-              Using popular Python libraries like matplotlib,
-              you’ll create visual representations of data.
+              Use Python libraries such as matplotlib to create visual representations of data.
             </li>
+
             <li class="mb-3 example">
               <strong>Web Data Extraction:</strong>
-              Use the BeautifulSoup library to scrape web pages
-              and extract useful information.
+              Use BeautifulSoup to scrape web pages and extract useful information.
             </li>
+
             <li class="mb-3 example">
               <strong>Real-time Data Extraction:</strong>
-              Build a program that interacts with web APIs to fetch and process real-time data, such as current weather
-              information or live currency exchange rates.
+              Build a program that interacts with APIs to fetch real-time information.
             </li>
+
           </ul>
-          <p class="mb-3 example">
-            These hands-on projects not only reinforce your Python skills but also demonstrate how AI and programming
-            can be applied to solve real-world problems and enhance everyday tasks. By the end of the course, you’ll
-            have a portfolio of practical AI-powered applications that you’ve built from scratch!</p>
-          <p class="mb-3 example">
-            You’ll learn directly from Andrew Ng, a globally recognized AI leader known for his engaging teaching style.
-            Andrew has educated around 8 million people worldwide through his online courses, helping them build
-            foundational skills in AI and machine learning.
-          </p>
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="join descr py-3">
-      <div class="container">
+    <section class="join  ">
+
+      <div class="container-fluid ">
+
         <div class="card p-4">
+
           <h2 class="mb-4 fs-4 fw-bold">
             Who should Join?
           </h2>
@@ -313,419 +371,769 @@
           <p class="mb-3 example">
             This course is for anyone curious about AI and programming with Python, from complete beginners learning to
             code for the first time to professionals seeking to boost productivity and learn how to properly integrate
-            AI into their coding process. Ideal for students, career changers, knowledge workers, lifelong learners, and
-            educators. If traditional coding courses haven’t worked or have felt intimidating, our hands-on, AI-focused
-            approach will help you in your journey.
+            AI into their coding process.
           </p>
+
           <p class="mb-3 example">
             Whether you want to automate repetitive tasks, extract insights from large datasets, or create AI-powered
-            tools to enhance your work or personal projects, this course will give you the skills to get started. By the
-            end, you’ll not only understand Python basics but also know how to leverage powerful data analysis
-            libraries, interact with web APIs, and set up Python on your own computer to continue your learning journey.
+            tools to enhance your work or personal projects, this course will give you the skills to get started.
           </p>
 
         </div>
+
       </div>
+
     </section>
-    <section class=" skills   py-4 ">
-      <div class="container bg-white border rounded-3 shadow-sm p-4">
-        <h3 class="mb-4 fs-5 fw-bold">Skills you will gain</h3>
-        <div class="d-flex flex-wrap gap-2">
-          <span class="border rounded-pill px-3 py-2 exam fw-bold">Python Programming</span>
-          <span class="border rounded-pill px-3 py-2 exam fw-bold">AI-Assisted Coding</span>
-          <span class="border rounded-pill px-3 py-2 exam fw-bold">Effective LLM Prompts</span>
-          <span class="border rounded-pill px-3 py-2 exam fw-bold">Data Structures</span>
-          <span class="border rounded-pill px-3 py-2 exam fw-bold">Function Creation</span>
-          <span class="border rounded-pill px-3 py-2 exam fw-bold">Variable Management</span>
-          <span class="border rounded-pill px-3 py-2 exam fw-bold">Debugging</span>
-          <span class="border rounded-pill px-3 py-2 exam fw-bold">File Handling</span>
-          <span class="border rounded-pill px-3 py-2 exam fw-bold">API Interaction</span>
+
+    <section class="skills ">
+
+      <div class="container-fluid ">
+
+        <div class="bg-white border rounded-3 shadow-sm p-4">
+
+          <h3 class="mb-4 fs-5 fw-bold">
+            Skills you will gain
+          </h3>
+
+          <div class="d-flex flex-wrap gap-2">
+
+            <span class="border rounded-pill px-3 py-2 exam fw-bold">
+              Python Programming
+            </span>
+
+            <span class="border rounded-pill px-3 py-2 exam fw-bold">
+              AI-Assisted Coding
+            </span>
+
+            <span class="border rounded-pill px-3 py-2 exam fw-bold">
+              Effective LLM Prompts
+            </span>
+
+            <span class="border rounded-pill px-3 py-2 exam fw-bold">
+              Data Structures
+            </span>
+
+            <span class="border rounded-pill px-3 py-2 exam fw-bold">
+              Function Creation
+            </span>
+
+            <span class="border rounded-pill px-3 py-2 exam fw-bold">
+              Variable Management
+            </span>
+
+            <span class="border rounded-pill px-3 py-2 exam fw-bold">
+              Debugging
+            </span>
+
+            <span class="border rounded-pill px-3 py-2 exam fw-bold">
+              File Handling
+            </span>
+
+            <span class="border rounded-pill px-3 py-2 exam fw-bold">
+              API Interaction
+            </span>
+
+          </div>
+
         </div>
+
       </div>
+
     </section>
-    <section class="course-section w-75 py-3">
-      <div class="container-fluid px-4">
+
+    <section class="course-section ">
+
+      <div class="container-fluid ">
+
         <div class="course-box bg-white p-4 rounded-4 shadow-sm">
+
           <h2 class="mb-4">Course Outline</h2>
+
           <h5 class="mb-4">AI Python for Beginners</h5>
+
           <div class="accordion" id="courseAccordion">
+
             <div class="accordion-item mb-4 rounded-3 overflow-hidden">
+
               <h2 class="accordion-header">
+
                 <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
                   data-bs-target="#moduleOne">
+
                   Module 1: Basics of AI Python Coding
+
                 </button>
+
               </h2>
+
               <div id="moduleOne" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+
                 <div class="accordion-body">
 
                   <div class="mb-4">
+
                     <h6>▶ Introduction</h6>
-                    <p class="text-secondary mb-0 ms-4">Video . 3m</p>
+
+                    <p class="text-secondary mb-0 ms-4">
+                      Video . 3m
+                    </p>
+
                   </div>
 
                   <div class="mb-4">
-                    <h6>▶ What is computer programming?</h6>
-                    <p class="text-secondary mb-0 ms-4">Video . 5m</p>
+
+                    <h6>
+                      ▶ What is computer programming?
+                    </h6>
+
+                    <p class="text-secondary mb-0 ms-4">
+                      Video . 5m
+                    </p>
+
                   </div>
 
                   <div class="mb-4">
-                    <h6>▶ Writing code with chatbots</h6>
-                    <p class="text-secondary mb-0 ms-4">Video . 6m</p>
+
+                    <h6>
+                      ▶ Writing code with chatbots
+                    </h6>
+
+                    <p class="text-secondary mb-0 ms-4">
+                      Video . 6m
+                    </p>
+
                   </div>
 
                   <div class="mb-4">
-                    <h6>▶ Navigating the learning platform</h6>
-                    <p class="text-secondary mb-0 ms-4">Video . 3m</p>
+
+                    <h6>
+                      ▶ Navigating the learning platform
+                    </h6>
+
+                    <p class="text-secondary mb-0 ms-4">
+                      Video . 3m
+                    </p>
+
                   </div>
 
                   <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Join the DeepLearning.AI Forum to ask questions, get support, or
-                      share amazing ideas!</h6>
-                    <p class="text-secondary mb-0 ms-4">Reading . 1m</p>
-                  </div>
 
-                  <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Running your first program</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 8m</p>
-                  </div>
+                    <h6>
+                      <i class="bi bi-archive"></i>
+                      Running your first program
+                    </h6>
 
-                  <div class="mb-4">
-                    <h6>▶ How to succeed in coding</h6>
-                    <p class="text-secondary mb-0 ms-4">Video . 2m</p>
-                  </div>
+                    <p class="text-secondary mb-0 ms-4">
+                      Video with Code Example . 8m
+                    </p>
 
-                  <div>
-                    <h6><i class="bi bi-archive"></i> Data in Python</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 10m</p>
                   </div>
 
                 </div>
+
               </div>
+
             </div>
 
             <div class="accordion-item mb-4 rounded-3 overflow-hidden">
+
               <h2 class="accordion-header">
+
                 <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
                   data-bs-target="#moduleTwo">
+
                   Module 2: Automating Tasks with Python
+
                 </button>
+
               </h2>
+
               <div id="moduleTwo" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+
                 <div class="accordion-body">
 
                   <div class="mb-4">
+
                     <h6>▶ Introduction</h6>
-                    <p class="text-secondary mb-0 ms-4">Video . 3m</p>
+
+                    <p class="text-secondary mb-0 ms-4">
+                      Video . 3m
+                    </p>
+
                   </div>
 
                   <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i>Completing a task list with AI</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 13m</p>
+
+                    <h6>
+                      <i class="bi bi-archive"></i>
+                      Completing a task list with AI
+                    </h6>
+
+                    <p class="text-secondary mb-0 ms-4">
+                      Video with Code Example . 13m
+                    </p>
+
                   </div>
 
                   <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Repeating tasks with for loops</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 12m</p>
+
+                    <h6>
+                      <i class="bi bi-archive"></i>
+                      Repeating tasks with for loops
+                    </h6>
+
+                    <p class="text-secondary mb-0 ms-4">
+                      Video with Code Example . 12m
+                    </p>
+
                   </div>
 
                   <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Prioritizing tasks with dictionaries and AI</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 14m</p>
-                  </div>
 
-                  <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Customizing recipes with lists, dictionaries and AI</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 6m</p>
-                  </div>
+                    <h6>
+                      <i class="bi bi-archive"></i>
+                      Quiz 2
+                    </h6>
 
-                  <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Comparing data in Python</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 11m</p>
-                  </div>
+                    <p class="text-secondary mb-0 ms-4">
+                      <strong>Graded</strong> . Quiz . 10m
+                    </p>
 
-                  <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Helping AI make decisions</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 10m</p>
-                  </div>
-
-                  <div>
-                    <h6><i class="bi bi-archive"></i> Quiz 2</h6>
-                    <p class="text-secondary mb-0 ms-4"><strong>Graded</strong> . Quiz . 10m</p>
                   </div>
 
                 </div>
+
               </div>
+
             </div>
 
             <div class="accordion-item mb-4 rounded-3 overflow-hidden">
+
               <h2 class="accordion-header">
+
                 <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
                   data-bs-target="#moduleThree">
+
                   Module 3: Working with Your Own Data and Documents in Python
+
                 </button>
+
               </h2>
+
               <div id="moduleThree" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+
                 <div class="accordion-body">
 
                   <div class="mb-4">
+
                     <h6>▶ Introduction</h6>
-                    <p class="text-secondary mb-0 ms-4">Video . 4m</p>
+
+                    <p class="text-secondary mb-0 ms-4">
+                      Video . 4m
+                    </p>
+
                   </div>
 
                   <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Using files in Python</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 5m</p>
+
+                    <h6>
+                      <i class="bi bi-archive"></i>
+                      Using files in Python
+                    </h6>
+
+                    <p class="text-secondary mb-0 ms-4">
+                      Video with Code Example . 5m
+                    </p>
+
                   </div>
 
                   <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Loading and using your own data</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 6m</p>
-                  </div>
 
-                  <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Reading journals from food critics</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 7m</p>
-                  </div>
+                    <h6>
+                      <i class="bi bi-archive"></i>
+                      Loading and using your own data
+                    </h6>
 
-                  <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Extracting restaurant information from journal entries</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 8m</p>
-                  </div>
+                    <p class="text-secondary mb-0 ms-4">
+                      Video with Code Example . 6m
+                    </p>
 
-                  <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Vacation planning using CSV files</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 7m</p>
-                  </div>
-
-                  <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Turning code blocks into reusable functions</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 8m</p>
-                  </div>
-
-                  <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Creating detailed itineraries for multiple cities</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 8m</p>
                   </div>
 
                   <div>
-                    <h6><i class="bi bi-archive"></i> Share Your Learning Project!</h6>
-                    <p class="text-secondary mb-0 ms-4">Resource . 10m</p>
-                  </div>
-                  <div>
-                    <h6><i class="bi bi-archive"></i> Quiz 3</h6>
-                    <p class="text-secondary mb-0 ms-4"><strong>Graded</strong> . Quiz . 10m</p>
+
+                    <h6>
+                      <i class="bi bi-archive"></i>
+                      Quiz 3
+                    </h6>
+
+                    <p class="text-secondary mb-0 ms-4">
+                      <strong>Graded</strong> . Quiz . 10m
+                    </p>
+
                   </div>
 
                 </div>
+
               </div>
+
             </div>
 
             <div class="accordion-item rounded-3 overflow-hidden">
+
               <h2 class="accordion-header">
+
                 <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
                   data-bs-target="#moduleFour">
+
                   Module 4: Extending Python with Packages and APIs
+
                 </button>
+
               </h2>
+
               <div id="moduleFour" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+
                 <div class="accordion-body">
 
                   <div class="mb-4">
+
                     <h6>▶ Introduction</h6>
-                    <p class="text-secondary mb-0 ms-4">Video . 3m</p>
+
+                    <p class="text-secondary mb-0 ms-4">
+                      Video . 3m
+                    </p>
+
                   </div>
 
                   <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i>Using functions from a local file</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 7m</p>
+
+                    <h6>
+                      <i class="bi bi-archive"></i>
+                      Using third-party packages
+                    </h6>
+
+                    <p class="text-secondary mb-0 ms-4">
+                      Video with Code Example . 8m
+                    </p>
+
                   </div>
 
                   <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i>Built-in packages</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 8m</p>
+
+                    <h6>
+                      <i class="bi bi-archive"></i>
+                      APIs to get data from the web
+                    </h6>
+
+                    <p class="text-secondary mb-0 ms-4">
+                      Video with Code Example . 7m
+                    </p>
+
                   </div>
 
                   <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Using third-party packages</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 8m</p>
-                  </div>
 
-                  <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Installing packages</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 8m</p>
-                  </div>
+                    <h6>
+                      <i class="bi bi-archive"></i>
+                      APIs to use AI models
+                    </h6>
 
-                  <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> APIs to get data from the web</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 7m</p>
-                  </div>
+                    <p class="text-secondary mb-0 ms-4">
+                      Video with Code Example . 9m
+                    </p>
 
-                  <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> APIs to use AI models</h6>
-                    <p class="text-secondary mb-0 ms-4">Video with Code Example . 9m</p>
-                  </div>
-
-                  <div class="mb-4">
-                    <h6><i class="bi bi-archive"></i> Install Python on your computer</h6>
-                    <p class="text-secondary mb-0 ms-4">Code Example . 10m</p>
                   </div>
 
                   <div>
-                    <h6>▷ Conclusion</h6>
-                    <p class="text-secondary mb-0 ms-4">Video · 3m</p>
-                  </div>
-                  <div>
-                    <h6><i class="bi bi-archive"></i> Quiz 4</h6>
-                    <p class="text-secondary mb-0 ms-4"><strong>Graded</strong> . Quiz . 10m</p>
+
+                    <h6>
+                      <i class="bi bi-archive"></i>
+                      Quiz 4
+                    </h6>
+
+                    <p class="text-secondary mb-0 ms-4">
+                      <strong>Graded</strong> . Quiz . 10m
+                    </p>
+
                   </div>
 
                 </div>
+
               </div>
+
             </div>
 
           </div>
+
         </div>
+
       </div>
+
     </section>
-    <section class="Instructor w-75 py-5 ">
-      <div class="container">
-        <h2 class="mb-4">Instructor</h2>
+
+    <section class="Instructor ">
+
+      <div class="container-fluid">
+
+        <h2 class="mb-4">
+          Instructor
+        </h2>
+
         <div class="card border-0 shadow-sm rounded-4">
+
           <div class="card-body p-4">
+
             <div class="row align-items-center">
+
               <div class="col-md-8">
-                <div class="d-flex align-items-center">
+
+                <div class="d-flex align-items-center flex-wrap">
+
                   <img src="./assets/Images/instructor.jpeg" class="rounded-circle me-3" width="100" height="100"
                     alt="Instructor">
+
                   <div>
-                    <h5 class="mb-1">Andrew Ng</h5>
-                    <p class="text-secondary mb-0">Founder, DeepLearning.AI; Co-founder, Coursera</p>
+
+                    <h5 class="mb-1">
+                      Andrew Ng
+                    </h5>
+
+                    <p class="text-secondary mb-0">
+                      Founder, DeepLearning.AI; Co-founder, Coursera
+                    </p>
+
                   </div>
+
                 </div>
+
               </div>
 
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="Enroll  py-2 w-75 ">
-      <div class="container-fluid px-3">
-        <div class="row align-items-center rounded-3 overflow-hidden text-white p-5">
-          <div class="col-lg-8 px-lg-4">
-            <h2 class="fw-semibold mb-4 fs-4 example">Course access is free for a limited time during the
-              DeepLearning.AI learning
-              platform beta!</h2>
-            <a href="#" class="btn btn-light fw-semibold px-4 py-3 example">Enroll for Free</a>
+
           </div>
 
         </div>
+
       </div>
+
     </section>
-    <section class="subscribe-section py-5">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-12 col-lg-6">
-            <h2 class=" learnmore fw-bold mb-3 text-white">Want to learn more about Generative AI?</h2>
-            <p class="fs-5 text-white">Keep learning with updates on curated AI news, courses, and events, as well as
-              Andrew’s
-              thoughts from DeepLearning.AI!</p>
+
+    <section class="Enroll ">
+
+      <div class="container-fluid px-3">
+
+        <div class="row align-items-center rounded-3 overflow-hidden text-white p-5">
+
+          <div class="col-lg-8 px-lg-4">
+
+            <h2 class="fw-semibold mb-4 fs-4 example">
+
+              Course access is free for a limited time during the DeepLearning.AI learning platform beta!
+
+            </h2>
+
+            <a href="#" class="btn btn-light fw-semibold px-4 py-3 example">
+
+              Enroll for Free
+
+            </a>
+
           </div>
-          <div class="col-12 col-lg-6">
-            <form>
-              <div class="mb-3">
-                <label for="firstName" class="first form-label fw-bold text-white">First name*</label>
-                <input type="text" class="form-control" id="firstName">
-              </div>
-              <div class="mb-3">
-                <label for="lastName" class="last form-label fw-bold text-white">Last name*</label>
-                <input type="text" class="form-control" id="lastName">
-              </div>
-              <div class="mb-3">
-                <label for="email" class="Email form-label fw-bold text-white">Email*</label>
-                <input type="email" class="form-control" id="email">
-              </div>
-              <div class="mb-4">
-                <label for="country" class="live form-label fw-bold text-white">Where do you live?*</label>
-                <select class="form-select" id="country">
-                  <option selected>Please Select</option>
-                  <option>India</option>
-                  <option>United States</option>
-                  <option>United Kingdom</option>
-                </select>
-              </div>
-              <div class="form-check mb-4">
-                <input class="form-check-input" type="checkbox" id="newsletter" checked>
-                <label class="form-check-label text-white fw-bold" for="newsletter">I want to get the latest news,
-                  courses,
-                  workshops and events announcements*</label>
-              </div>
-              <button type="submit" class=" submit text-white btn w-100 fw-bold fs-5">Subscribe</button>
-            </form>
-          </div>
+
         </div>
+
       </div>
+
+    </section>
+
+    <section class="subscribe-section py-5">
+
+      <div class="container-fluid px-4 px-lg-5">
+
+        <div class="row g-5">
+
+          <div class="col-12 col-lg-6">
+
+            <h2 class="learnmore fw-bold mb-3 text-white">
+
+              Want to learn more about Generative AI?
+
+            </h2>
+
+            <p class="fs-5 text-white">
+
+              Keep learning with updates on curated AI news, courses, and events, as well as Andrew’s thoughts from
+              DeepLearning.AI!
+
+            </p>
+
+          </div>
+
+          <div class="col-12 col-lg-6">
+
+            <form>
+
+              <div class="mb-3">
+
+                <label for="firstName" class="first form-label fw-bold text-white">
+
+                  First name*
+
+                </label>
+
+                <input type="text" class="form-control" id="firstName">
+
+              </div>
+
+              <div class="mb-3">
+
+                <label for="lastName" class="last form-label fw-bold text-white">
+
+                  Last name*
+
+                </label>
+
+                <input type="text" class="form-control" id="lastName">
+
+              </div>
+
+              <div class="mb-3">
+
+                <label for="email" class="Email form-label fw-bold text-white">
+
+                  Email*
+
+                </label>
+
+                <input type="email" class="form-control" id="email">
+
+              </div>
+
+              <div class="mb-4">
+
+                <label for="country" class="live form-label fw-bold text-white">
+
+                  Where do you live?*
+
+                </label>
+
+                <select class="form-select" id="country">
+
+                  <option selected>Please Select</option>
+
+                  <option>India</option>
+
+                  <option>United States</option>
+
+                  <option>United Kingdom</option>
+
+                </select>
+
+              </div>
+
+              <div class="form-check mb-4">
+
+                <input class="form-check-input" type="checkbox" id="newsletter" checked>
+
+                <label class="form-check-label text-white fw-bold" for="newsletter">
+
+                  I want to get the latest news, courses, workshops and events announcements*
+
+                </label>
+
+              </div>
+
+              <button type="submit" class="submit text-white btn w-100 fw-bold fs-5">
+
+                Subscribe
+
+              </button>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
     </section>
 
   </main>
-  <footer class=" footer py-5" >
-    <div class="container-fluid px-3">
+
+  <footer class="footer py-5">
+
+    <div class="container-fluid px-4 px-lg-5">
+
       <div class="row mb-5">
+
         <div class="col-12">
-          <h2 class="text-white fw-bold">DeepLearning.AI</h2>
+
+          <h2 class="text-white fw-bold">
+            DeepLearning.AI
+          </h2>
+
         </div>
+
       </div>
-      <div class="row align-items-start mb-5">
-        <div class="col-lg-8 col-md-8">
-          <div class="row">
-            <div class="col-md-2 col-6">
-              <a href="#" class=" footerlinks d-block  fw-bold text-decoration-none mb-4">Courses</a>
+
+      <div class="row align-items-start mb-5 g-4">
+
+        <div class="col-12 col-lg-6">
+
+          <div class="row g-3">
+
+            <div class="col-6 col-md-3">
+
+              <a href="#" class="footerlinks d-block fw-bold text-decoration-none mb-4">
+
+                Courses
+
+              </a>
+
             </div>
-            <div class="col-md-2 col-6">
-              <a href="#" class="footerlinks d-block  fw-bold text-decoration-none mb-4">The Batch</a>
-              <a href="#" class="footerlinks d-block  fw-bold text-decoration-none">Community</a>
+
+            <div class="col-6 col-md-3">
+
+              <a href="#" class="footerlinks d-block fw-bold text-decoration-none mb-4">
+
+                The Batch
+
+              </a>
+
+              <a href="#" class="footerlinks d-block fw-bold text-decoration-none">
+
+                Community
+
+              </a>
+
             </div>
-            <div class="col-md-2 col-6">
-              <a href="#" class="footerlinks d-block  fw-bold text-decoration-none mb-4">Careers</a>
-              <a href="#" class="footerlinks d-block  fw-bold text-decoration-none mb-4">About</a>
-              <a href="#" class="footerlinks d-block  fw-bold text-decoration-none">Contact</a>
+
+            <div class="col-6 col-md-3">
+
+              <a href="#" class="footerlinks d-block fw-bold text-decoration-none mb-4">
+
+                Careers
+
+              </a>
+
+              <a href="#" class="footerlinks d-block fw-bold text-decoration-none mb-4">
+
+                About
+
+              </a>
+
+              <a href="#" class="footerlinks d-block fw-bold text-decoration-none">
+
+                Contact
+
+              </a>
+
             </div>
-            <div class="col-md-2 col-6">
-              <a href="#" class="footerlinks d-block  fw-bold text-decoration-none">Help</a>
+
+            <div class="col-6 col-md-3">
+
+              <a href="#" class="footerlinks d-block fw-bold text-decoration-none">
+
+                Help
+
+              </a>
+
             </div>
+
           </div>
+
         </div>
-        <div class="col-lg-4 col-md-4">
-          <p class="get text-white fw-bold mb-2">GET THE MOBILE APP</p>
-          <div class=" get d-flex gap-3">
-            <img src="./assets/Images/appstore.png" alt="App Store" class="black" style="max-width:150px;">
-            <img src="./assets/Images/gp.png" alt="Google Play" class="blackness" style="max-width:170px;">
+
+        <div class="col-12 col-lg-6">
+
+          <p class="get text-white fw-bold mb-2">
+
+            GET THE MOBILE APP
+
+          </p>
+
+          <div class="get d-flex flex-wrap gap-3">
+
+            <img src="./assets/Images/appstore.png" alt="App Store" class="black">
+
+            <img src="./assets/Images/gp.png" alt="Google Play" class="blackness">
+
           </div>
+
         </div>
+
       </div>
+
       <hr class="border-secondary border-2">
+
       <div class="row align-items-center pt-3">
-        <div class="col-md-6">
-          <div class="d-flex gap-4 fs-3">
-            <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
-            <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
-            <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+
+        <div class="col-12 col-md-6">
+
+          <div class="d-flex flex-wrap gap-4 fs-3">
+
+            <a href="#" class="text-white">
+
+              <i class="bi bi-facebook"></i>
+
+            </a>
+
+            <a href="#" class="text-white">
+
+              <i class="bi bi-instagram"></i>
+
+            </a>
+
+            <a href="#" class="text-white">
+
+              <i class="bi bi-twitter-x"></i>
+
+            </a>
+
+            <a href="#" class="text-white">
+
+              <i class="bi bi-linkedin"></i>
+
+            </a>
+
+            <a href="#" class="text-white">
+
+              <i class="bi bi-youtube"></i>
+
+            </a>
+
           </div>
+
         </div>
-        <div class="col-md-6 text-md-end mt-3 mt-md-0">
-          <a href="#" class="text-white text-decoration-none">Terms of Use</a>
+
+        <div class="col-12 col-md-6 text-md-end mt-3 mt-md-0">
+
+          <a href="#" class="text-white text-decoration-none">
+
+            Terms of Use
+
+          </a>
+
           <span class="text-white mx-2">|</span>
-          <a href="#" class="text-white text-decoration-none">Privacy Policy</a>
+
+          <a href="#" class="text-white text-decoration-none">
+
+            Privacy Policy
+
+          </a>
+
         </div>
+
       </div>
+
     </div>
+
   </footer>
 
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
